@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/frag2t"
+        android:paddingTop="55dp"
+        android:paddingLeft="10dp"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ime valute"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/coinname"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/frag2t"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRICE (BTC)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/pricebtc"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/coinname"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRICE (ETH)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/priceeth"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/pricebtc"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRICE (EVN)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/priceevn"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/priceeth"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRICE (DOGE)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/pricedoge"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/priceevn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRICE (ZEC)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/pricezec"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/pricedoge"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRICE (USD)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/priceusd"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/pricezec"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRICE (EUR)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/priceeur"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/priceusd"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARKET"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/MARKET"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/priceeur"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LASTUPDATE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/lastupdate"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/MARKET"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frag2"/>
+
+
+</RelativeLayout>
